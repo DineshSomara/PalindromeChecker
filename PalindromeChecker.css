@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background-color: #cc00ff;
+    font-family: 'Roboto';
+}
+
+.card {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 27px;
+    font-weight: 500;
+    margin: 0;
+    color: #cc00ff;
+}
+
+p {
+    color: #29293d;
+}
+
+input {
+    border: 1px solid #c2c2d6;
+    border-radius: 10px;
+    outline: none;
+    padding: 13px;
+    width: 92%;
+}
+
+input:focus {
+    box-shadow: 0px 3px 6px #d1d1e0;
+}
+
+button {
+    background-color: #cc00ff;
+    border: 0;
+    padding: 13px;
+    color: white;
+    margin-top: 7px;
+    border-radius: 10px;
+    font-size: 17px;
+    opacity: 0.7;
+    width: 100%;
+    cursor: pointer;
+}
+
+#demo {
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 0px;
+    display: none;
+}
+
+span {
+    color: #cc00ff;
+}
